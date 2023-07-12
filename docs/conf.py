@@ -40,6 +40,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
+    "sphinx_docsearch",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -384,3 +385,8 @@ intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
     "urllib3": ("https://urllib3.readthedocs.io/en/latest", None),
 }
+
+# -- Docsearch config -----------------------------------------------------
+docsearch_app_id = "A2J01VNM3V"
+docsearch_api_key = "c6abc004aa198429ba93e58792570fa5"
+docsearch_index_name = "crawler_requests"
